@@ -42,12 +42,14 @@ namespace PCYP.MaidanaEduardo._2021
 
                         break;
                 }
+
+                Console.WriteLine("Desea Volver a intentarlo");
+                si = Console.ReadLine();
+
             }
 
-
-
-            Console.WriteLine("Desea Volver a intentarlo");
-            si = Console.ReadLine();
+            while (si == "SI" || si == "si");
+                                                                     
 
         }
     }
